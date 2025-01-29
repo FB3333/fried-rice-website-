@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cape Coast Fried Rice Hub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <h1>Cape Coast Fried Rice Hub</h1>
+      <p>Serving the Best Fried Rice in Cape Coast!</p>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Welcome to Cape Coast Fried Rice Hub</h2>
+      <p>Fresh, flavorful, and made just for you. Order now and enjoy a taste of home!</p>
+      <a href="#menu" class="btn">View Menu</a>
+      <a href="#contact" class="btn">Order Now</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>Our Story</h2>
+      <p>At Cape Coast Fried Rice Hub, we believe in serving the best fried rice in Cape Coast. Our passion for cooking and commitment to quality has made us a favorite among students and locals alike. Come taste the difference!</p>
+      <img src="images/about.jpg" alt="About Us">
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="menu">
+    <div class="container">
+      <h2>Our Menu</h2>
+      <div class="menu-items">
+        <div class="item">
+          <img src="images/classic-fried-rice.jpg" alt="Classic Fried Rice">
+          <h3>Classic Fried Rice</h3>
+          <p>GHS 25</p>
+        </div>
+        <div class="item">
+          <img src="images/chicken-fried-rice.jpg" alt="Chicken Fried Rice">
+          <h3>Chicken Fried Rice</h3>
+          <p>GHS 30</p>
+        </div>
+        <div class="item">
+          <img src="images/shrimp-fried-rice.jpg" alt="Shrimp Fried Rice">
+          <h3>Shrimp Fried Rice</h3>
+          <p>GHS 35</p>
+        </div>
+        <div class="item">
+          <img src="images/vegetable-fried-rice.jpg" alt="Vegetable Fried Rice">
+          <h3>Vegetable Fried Rice</h3>
+          <p>GHS 20</p>
+        </div>
+        <div class="item">
+          <img src="images/special-fried-rice.jpg" alt="Special Fried Rice">
+          <h3>Special Fried Rice</h3>
+          <p>GHS 40</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="gallery">
+    <div class="container">
+      <h2>Gallery</h2>
+      <div class="gallery-images">
+        <img src="images/gallery1.jpg" alt="Gallery Image 1">
+        <img src="images/gallery2.jpg" alt="Gallery Image 2">
+        <img src="images/gallery3.jpg" alt="Gallery Image 3">
+        <img src="images/gallery4.jpg" alt="Gallery Image 4">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>We'd love to hear from you! Reach out to us for orders or inquiries.</p>
+      <div class="contact-info">
+        <p><strong>Address:</strong> [Your Address]</p>
+        <p><strong>Phone:</strong> [Your Phone Number]</p>
+        <p><strong>Email:</strong> [Your Email]</p>
+      </div>
+      <div class="social-media">
+        <a href="https://instagram.com/yourprofile" target="_blank">Instagram</a>
+        <a href="https://facebook.com/yourprofile" target="_blank">Facebook</a>
+        <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Cape Coast Fried Rice Hub. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
